@@ -1,6 +1,6 @@
 # sw-components
 
-SW's web component library
+SW's design system / component library
 
 ## Overview
 
