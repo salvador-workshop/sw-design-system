@@ -15,6 +15,15 @@ const config = {
       },
     },
   },
+  swc: (config, options) => ({
+    jsc: {
+      transform: {
+        react: {
+          runtime: 'automatic',
+        },
+      },
+    },
+  }),
   docs: {
     autodocs: "tag",
   },

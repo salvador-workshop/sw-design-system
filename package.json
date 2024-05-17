@@ -15,9 +15,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@theme-ui/mdx": "^0.16.2",
+    "@theme-ui/presets": "^0.16.2",
+    "@theme-ui/style-guide": "^0.16.2",
     "parcel": "^2.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "theme-ui": "^0.16.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
