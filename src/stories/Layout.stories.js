@@ -1,8 +1,8 @@
-import PresetsDemo from '../components/PresetsDemo';
+import Layout from '../components/lib/Layout';
 
 export default {
-  title: 'System/Theme UI Presets Demo',
-  component: PresetsDemo,
+  title: 'Components/Layout',
+  component: Layout,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {

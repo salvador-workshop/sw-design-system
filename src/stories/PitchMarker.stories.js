@@ -1,7 +1,7 @@
 import PitchMarker from '../components/PitchMarker';
 
 export default {
-  title: 'Fingerboard/PitchMarker',
+  title: 'Components/Fingerboard/PitchMarker',
   component: PitchMarker,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
