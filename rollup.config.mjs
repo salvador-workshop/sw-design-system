@@ -5,11 +5,17 @@ import json from '@rollup/plugin-json';
 import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-	input: 'src/index.js',
-	output: {
-		file: 'dist/sw-design-system.js',
-		format: 'esm'
-	},
+    input: './src/index.js',
+    output: [
+        {
+            file: 'dist/sw-design-system.esm.js',
+            format: 'esm'
+        },
+        {
+            file: 'dist/sw-design-system.cjs.js',
+            format: 'cjs'
+        },
+    ],
     plugins: [
         resolve({
             extensions: ['.mjs', '.js', '.json', '.node', '.jsx', '.md', '.mdx'],

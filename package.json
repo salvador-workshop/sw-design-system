@@ -6,7 +6,12 @@
     "type": "git",
     "url": "https://github.com/salvador-workshop/sw-design-system.git"
   },
-  "main": "dist/sw-design-system.js",
+  "main": "dist/sw-design-system.cjs.js",
+  "module": "dist/sw-design-system.esm.js",
+  "exports": {
+    "require": "./dist/sw-design-system.cjs.js",
+    "import": "./dist/sw-design-system.esm.js"
+  },
   "type": "module",
   "scripts": {
     "build": "rollup --config",
@@ -15,7 +20,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "RJ Salvador <salvador.workshop@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@emotion/react": "^11.11.4",
