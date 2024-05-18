@@ -1,6 +1,5 @@
 {/* original from https://github.com/beerose/theme-ui-sketchy/blob/master/src/components/components.mdx */}
 
-import { useTheme } from '@emotion/react'
 import {
   Message,
   NavLink,
@@ -26,62 +25,7 @@ import {
   Alert,
 } from 'theme-ui'
 
-export const Radii = () => {
-  const theme = useTheme()
-  if (typeof theme.radii === 'object') {
-    return (
-      <>
-        <Divider />
-        <h2>Borders</h2>
-        <Flex sx={{ flexWrap: 'wrap' }}>
-          {Object.keys(theme.radii).map((key) => (
-            <Box
-              key={`border_${key}`}
-              p={3}
-              m={2}
-              color="text"
-              bg="muted"
-              sx={{
-                border: '2px solid black',
-                borderRadius: { key },
-                minWidth: '100px',
-              }}
-            >
-              {key}
-            </Box>
-          ))}
-        </Flex>
-      </>
-    )
-  }
-  return null
-}
-
 # Example components
-
-<Radii />
-
-export const Buttons = () => {
-  const theme = useTheme()
-  if (typeof theme.buttons === 'object') {
-    return (
-      <>
-        <Divider />
-        <h2>Buttons</h2>
-        <Flex sx={{ flexWrap: 'wrap' }}>
-          {Object.keys(theme.buttons).map((key) => (
-            <Button key={`button_${key}`} variant={key} m={10}>
-              {key}
-            </Button>
-          ))}
-        </Flex>
-      </>
-    )
-  }
-  return null
-}
-
-<Buttons />
 
 ---
 
@@ -132,50 +76,6 @@ export const Buttons = () => {
 <Box pb={20}>
   <Link href="#!">Hello</Link>
 </Box>
-
-export const Badges = () => {
-  const theme = useTheme()
-  if (typeof theme.badges === 'object') {
-    return (
-      <>
-        <Divider />
-        <h2>Badges</h2>
-        <Flex sx={{ flexWrap: 'wrap' }}>
-          {Object.keys(theme.badges).map((key) => (
-            <Badge key={`button_${key}`} variant={key} m={10}>
-              {key}
-            </Badge>
-          ))}
-        </Flex>
-      </>
-    )
-  }
-  return null
-}
-
-<Badges />
-
-export const Alerts = () => {
-  const theme = useTheme()
-  if (typeof theme.alerts === 'object') {
-    return (
-      <>
-        <Divider />
-        <h2>Alerts</h2>
-        <Flex sx={{ flexDirection: 'column' }}>
-          {Object.keys(theme.alerts).map((key) => (
-            <Alert key={`button_${key}`} variant={key} m={10}>
-              {key}
-            </Alert>
-          ))}
-        </Flex>
-      </>
-    )
-  }
-  return null
-}
-
-<Alerts />
 
 ---
 
