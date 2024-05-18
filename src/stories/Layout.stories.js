@@ -1,4 +1,4 @@
-import Layout from '../components/lib/Layout';
+import { Layout } from '../assemblies'
 
 export default {
   title: 'Components/Layout',

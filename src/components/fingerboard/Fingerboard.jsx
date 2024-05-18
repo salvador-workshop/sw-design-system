@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Fingerboard({isFretted, isReversed, stringPitches, maxPositions}) {
+export function Fingerboard({isFretted, isReversed, stringPitches, maxPositions}) {
     const fretClass = isFretted ? 'fretted' : 'not-fretted';
     const revertedClass = isReversed ? 'reversed' : 'not-reversed';
 

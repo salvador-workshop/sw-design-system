@@ -1,4 +1,4 @@
-import PitchMarker from '../components/lib/fingerboard/PitchMarker'
+import { PitchMarker } from '../components'
 
 export default {
   title: 'Components/Fingerboard/PitchMarker',

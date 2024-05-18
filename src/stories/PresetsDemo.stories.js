@@ -1,4 +1,4 @@
-import PresetsDemo from '../components/PresetsDemo';
+import { PresetsDemo } from '../assemblies'
 
 export default {
   title: 'System/Theme UI Presets Demo',

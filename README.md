@@ -4,7 +4,7 @@ SW's design system / component library
 
 ## Overview
 
-...
+Wrapper over ([theme-ui v0.16.2](https://github.com/system-ui/theme-ui/releases/tag/v0.16.2))
 
 ## Development
 

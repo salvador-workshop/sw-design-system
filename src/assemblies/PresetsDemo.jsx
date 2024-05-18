@@ -10,9 +10,9 @@ import {
   ColorPalette,
   FontFamily,
 } from '@theme-ui/style-guide'
-import Components from './components.mdx'
+import Components from './ThemeUiComponents.mdx'
 
-export default function PresetsDemo() {
+export function PresetsDemo() {
   const [theme, setTheme] = useState('base')
   const preset = presets[theme]
 
