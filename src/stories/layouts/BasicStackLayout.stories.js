@@ -1,8 +1,9 @@
-import { Layout } from '../../assemblies'
+import { BasicStackLayout } from '../../layouts/BasicStackLayout'
+import { navLinks } from '../story-utils';
 
 export default {
-  title: 'Assemblies/Layout',
-  component: Layout,
+  title: 'Layouts/Basic Stack Layout',
+  component: BasicStackLayout,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {
@@ -13,5 +14,6 @@ export default {
 
 export const Default = {
   args: {
+    navLinks: navLinks
   },
 };

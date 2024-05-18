@@ -1,7 +1,11 @@
 import React from 'react'
+import { Navigation } from './Navigation'
 
-export const Footer = () => {
+export const Footer = ({ navLinks }) => {
   return (
-    <div>Footer</div>
+    <div>
+      <Navigation navLinks={navLinks} />
+      <span>Footer</span>
+    </div>
   )
 }

@@ -10,7 +10,7 @@ import {
   ColorPalette,
   FontFamily,
 } from '@theme-ui/style-guide'
-import Components from './ThemeUiComponents.mdx'
+import Components from '../assemblies/ThemeUiComponents.mdx'
 
 export function PresetsDemo() {
   const [theme, setTheme] = useState('base')

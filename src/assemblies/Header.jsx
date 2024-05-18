@@ -1,7 +1,11 @@
 import React from 'react'
+import { Navigation } from './Navigation'
 
-export const Header = () => {
+export const Header = ({ navLinks }) => {
   return (
-    <div>Header</div>
+    <div>
+      <span>Header</span>
+      <Navigation navLinks={navLinks} />
+    </div>
   )
 }
