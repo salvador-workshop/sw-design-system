@@ -1,7 +1,8 @@
 import React from 'react'
+import { AspectRatio as ThemeUiAspectRatio } from 'theme-ui'
 
-export const AspectRatio = () => {
+export const AspectRatio = (props) => {
   return (
-    <div>AspectRatio</div>
+    <ThemeUiAspectRatio {...props} />
   )
 }

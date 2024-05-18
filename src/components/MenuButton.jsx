@@ -1,7 +1,8 @@
 import React from 'react'
+import { MenuButton as ThemeUiMenuButton } from 'theme-ui'
 
-export const MenuButton = () => {
+export const MenuButton = (props) => {
   return (
-    <div>MenuButton</div>
+    <ThemeUiMenuButton {...props} />
   )
 }

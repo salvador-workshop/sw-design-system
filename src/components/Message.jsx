@@ -1,7 +1,8 @@
 import React from 'react'
+import { Message as ThemeUiMessage } from 'theme-ui'
 
-export const Message = () => {
+export const Message = (props) => {
   return (
-    <div>Message</div>
+    <ThemeUiMessage {...props} />
   )
 }

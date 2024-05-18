@@ -1,7 +1,8 @@
 import React from 'react'
+import { Label as ThemeUiLabel } from 'theme-ui'
 
-export const Label = () => {
+export const Label = (props) => {
   return (
-    <div>Label</div>
+    <ThemeUiLabel {...props} />
   )
 }

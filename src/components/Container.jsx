@@ -1,7 +1,8 @@
 import React from 'react'
+import { Container as ThemeUiContainer } from 'theme-ui'
 
-export const Container = () => {
+export const Container = (props) => {
   return (
-    <div>Container</div>
+    <ThemeUiContainer {...props} />
   )
 }

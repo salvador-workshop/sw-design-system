@@ -34,8 +34,3 @@ export * from './NavLink'
 export * from './Message'
 export * from './IconButton'
 export * from './MenuButton'
-
-// custom components
-export * from './fingerboard/Fingerboard'
-export * from './fingerboard/FingerboardGuide'
-export * from './fingerboard/PitchMarker'

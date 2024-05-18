@@ -1,7 +1,8 @@
 import React from 'react'
+import { Input as ThemeUiInput } from 'theme-ui'
 
-export const Input = () => {
+export const Input = (props) => {
   return (
-    <div>Input</div>
+    <ThemeUiInput {...props} />
   )
 }

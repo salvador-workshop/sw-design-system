@@ -1,7 +1,8 @@
 import React from 'react'
+import { Progress as ThemeUiProgress } from 'theme-ui'
 
-export const Progress = () => {
+export const Progress = (props) => {
   return (
-    <div>Progress</div>
+    <ThemeUiProgress {...props} />
   )
 }

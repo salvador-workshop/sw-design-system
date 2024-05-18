@@ -1,7 +1,8 @@
 import React from 'react'
+import { Flex as ThemeUiFlex } from 'theme-ui'
 
-export const Flex = () => {
+export const Flex = (props) => {
   return (
-    <div>Flex</div>
+    <ThemeUiFlex {...props} />
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link as ThemeUiLink } from 'theme-ui'
 
-export const Link = () => {
+export const Link = (props) => {
   return (
-    <div>Link</div>
+    <ThemeUiLink {...props} />
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
+import { Switch as ThemeUiSwitch } from 'theme-ui'
 
-export const Switch = () => {
+export const Switch = (props) => {
   return (
-    <div>Switch</div>
+    <ThemeUiSwitch {...props} />
   )
 }

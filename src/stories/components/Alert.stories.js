@@ -1,6 +1,6 @@
 import { ThemeUIProvider } from 'theme-ui'
-import { Alert, Close } from '../components'
-import { baseThemeUiPreset as preset } from '../utils/presets';
+import { Alert, Close } from '../../components'
+import { baseThemeUiPreset as preset } from '../../utils/presets';
 
 export default {
   title: 'Components/Alert',

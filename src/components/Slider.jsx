@@ -1,7 +1,8 @@
 import React from 'react'
+import { Slider as ThemeUiSlider } from 'theme-ui'
 
-export const Slider = () => {
+export const Slider = (props) => {
   return (
-    <div>Slider</div>
+    <ThemeUiSlider {...props} />
   )
 }

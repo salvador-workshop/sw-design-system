@@ -1,7 +1,8 @@
 import React from 'react'
+import { Badge as ThemeUiBadge } from 'theme-ui'
 
-export const Badge = () => {
+export const Badge = (props) => {
   return (
-    <div>Badge</div>
+    <ThemeUiBadge {...props} />
   )
 }

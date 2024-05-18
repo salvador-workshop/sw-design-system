@@ -1,7 +1,8 @@
 import React from 'react'
+import { IconButton as ThemeUiIconButton } from 'theme-ui'
 
-export const IconButton = () => {
+export const IconButton = (props) => {
   return (
-    <div>IconButton</div>
+    <ThemeUiIconButton {...props} />
   )
 }

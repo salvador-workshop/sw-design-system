@@ -1,7 +1,8 @@
 import React from 'react'
+import { Divider as ThemeUiDivider } from 'theme-ui'
 
-export const Divider = () => {
+export const Divider = (props) => {
   return (
-    <div>Divider</div>
+    <ThemeUiDivider {...props} />
   )
 }

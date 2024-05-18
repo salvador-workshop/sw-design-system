@@ -1,7 +1,7 @@
-import { Layout } from '../assemblies'
+import { Layout } from '../../assemblies'
 
 export default {
-  title: 'Components/Layout',
+  title: 'Assemblies/Layout',
   component: Layout,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],

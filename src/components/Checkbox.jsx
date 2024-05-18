@@ -1,7 +1,8 @@
 import React from 'react'
+import { Checkbox as ThemeUiCheckbox } from 'theme-ui'
 
-export const Checkbox = () => {
+export const Checkbox = (props) => {
   return (
-    <div>Checkbox</div>
+    <ThemeUiCheckbox {...props} />
   )
 }

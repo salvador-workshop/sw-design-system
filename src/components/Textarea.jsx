@@ -1,7 +1,8 @@
 import React from 'react'
+import { Textarea as ThemeUiTextarea } from 'theme-ui'
 
-export const Textarea = () => {
+export const Textarea = (props) => {
   return (
-    <div>Textarea</div>
+    <ThemeUiTextarea {...props} />
   )
 }

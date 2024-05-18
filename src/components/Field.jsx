@@ -1,7 +1,8 @@
 import React from 'react'
+import { Field as ThemeUiField } from 'theme-ui'
 
-export const Field = () => {
+export const Field = (props) => {
   return (
-    <div>Field</div>
+    <ThemeUiField {...props} />
   )
 }

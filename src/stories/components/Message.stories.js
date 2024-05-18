@@ -1,10 +1,10 @@
 import { ThemeUIProvider } from 'theme-ui'
-import { Button } from '../components'
-import { baseThemeUiPreset as preset } from '../utils/presets';
+import { Message } from '../../components'
+import { baseThemeUiPreset as preset } from '../../utils/presets';
 
 export default {
-  title: 'Components/Button',
-  component: Button,
+  title: 'Components/Message',
+  component: Message,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {
@@ -15,7 +15,7 @@ export default {
 
 export const Default = {
   args: {
-    children: 'Button text'
+    children: 'Message Text'
   },
   decorators: [
     (Story) => (

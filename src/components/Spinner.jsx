@@ -1,7 +1,8 @@
 import React from 'react'
+import { Spinner as ThemeUiSpinner } from 'theme-ui'
 
-export const Spinner = () => {
+export const Spinner = (props) => {
   return (
-    <div>Spinner</div>
+    <ThemeUiSpinner {...props} />
   )
 }

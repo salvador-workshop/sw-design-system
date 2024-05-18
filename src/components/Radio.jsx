@@ -1,7 +1,8 @@
 import React from 'react'
+import { Radio as ThemeUiRadio } from 'theme-ui'
 
-export const Radio = () => {
+export const Radio = (props) => {
   return (
-    <div>Radio</div>
+    <ThemeUiRadio {...props} />
   )
 }

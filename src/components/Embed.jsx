@@ -1,7 +1,8 @@
 import React from 'react'
+import { Embed as ThemeUiEmbed } from 'theme-ui'
 
-export const Embed = () => {
+export const Embed = (props) => {
   return (
-    <div>Embed</div>
+    <ThemeUiEmbed {...props} />
   )
 }

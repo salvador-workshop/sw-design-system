@@ -1,7 +1,8 @@
 import React from 'react'
+import { Grid as ThemeUiGrid } from 'theme-ui'
 
-export const Grid = () => {
+export const Grid = (props) => {
   return (
-    <div>Grid</div>
+    <ThemeUiGrid {...props} />
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
+import { Paragraph as ThemeUiParagraph } from 'theme-ui'
 
-export const Paragraph = () => {
+export const Paragraph = (props) => {
   return (
-    <div>Paragraph</div>
+    <ThemeUiParagraph {...props} />
   )
 }

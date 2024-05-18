@@ -1,7 +1,8 @@
 import React from 'react'
+import { AspectImage as ThemeUiAspectImage } from 'theme-ui'
 
-export const AspectImage = () => {
+export const AspectImage = (props) => {
   return (
-    <div>AspectImage</div>
+    <ThemeUiAspectImage {...props} />
   )
 }

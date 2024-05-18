@@ -1,7 +1,8 @@
 import React from 'react'
+import { Donut as ThemeUiDonut } from 'theme-ui'
 
-export const Donut = () => {
+export const Donut = (props) => {
   return (
-    <div>Donut</div>
+    <ThemeUiDonut {...props} />
   )
 }
