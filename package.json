@@ -1,7 +1,11 @@
 {
   "name": "sw-design-system",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "SW's design system / component library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvador-workshop/sw-design-system.git"
+  },
   "main": "dist/sw-design-system.js",
   "type": "module",
   "scripts": {

@@ -14,7 +14,10 @@ export default {
         resolve({
             extensions: ['.mjs', '.js', '.json', '.node', '.jsx', '.md', '.mdx'],
         }),
-        babel({ babelHelpers: 'bundled' }),
+        babel({
+            exclude: 'node_modules/**',
+            babelHelpers: 'bundled'
+        }),
         mdx(),
         json(),
         commonjs(),
