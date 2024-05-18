@@ -1,8 +1,8 @@
 import React from 'react'
 import { Alert as ThemeUiAlert } from 'theme-ui'
 
-export const Alert = () => {
+export const Alert = (props) => {
   return (
-    <ThemeUiAlert>Alert</ThemeUiAlert>
+    <ThemeUiAlert {...props} />
   )
 }

@@ -1,5 +1,5 @@
 import { ThemeUIProvider } from 'theme-ui'
-import { Alert } from '../components'
+import { Alert, Close } from '../components'
 import { baseThemeUiPreset as preset } from '../utils/presets';
 
 export default {
@@ -15,6 +15,7 @@ export default {
 
 export const Default = {
   args: {
+    children: ['Alert Text', <Close ml="auto" mr={-2} />]
   },
   decorators: [
     (Story) => (

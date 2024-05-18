@@ -15,6 +15,7 @@ export default {
 
 export const Default = {
   args: {
+    children: 'Button text'
   },
   decorators: [
     (Story) => (

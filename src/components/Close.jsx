@@ -1,7 +1,8 @@
 import React from 'react'
+import { Close as ThemeUiClose } from 'theme-ui'
 
-export const Close = () => {
+export const Close = (props) => {
   return (
-    <div>Close</div>
+    <ThemeUiClose {...props} />
   )
 }
