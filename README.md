@@ -16,14 +16,6 @@ MacOS Ventura 13.2.1
 npm install
 ```
 
-### Running locally
-
-```
-npm run dev
-```
-
-Launches parcel (default URL: `http://localhost:1234`)
-
 ### Running storybook
 
 ```
