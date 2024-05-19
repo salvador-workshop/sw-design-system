@@ -27,5 +27,6 @@ export default {
         mdx(),
         json(),
         commonjs(),
-    ]
+    ],
+    external: ['react', 'react-dom'],
 };
