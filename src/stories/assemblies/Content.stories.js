@@ -1,7 +1,7 @@
 import { ThemeUIProvider } from 'theme-ui'
 import { Content } from '../../assemblies'
-import { Heading, Text } from '../../components'
 import { baseThemeUiPreset as preset } from '../../utils/presets';
+import { textElements1 } from '../story-utils';
 
 export default {
   title: 'Assemblies/Content',
@@ -16,10 +16,7 @@ export default {
 
 export const Default = {
   args: {
-    children: [
-      <Heading>Alcatra sint kielbasa aliqua</Heading>,
-      <Text>Minim cillum veniam, kielbasa in short loin picanha culpa ex dolore occaecat strip steak laboris. Tempor bacon non, flank short ribs sirloin veniam dolore pastrami velit fatback ad tenderloin burgdoggen. Corned beef beef ribs ad eiusmod ut commodo.</Text>
-    ]
+    children: textElements1
   },
   decorators: [
     (Story) => (

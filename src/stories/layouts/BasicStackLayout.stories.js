@@ -1,8 +1,7 @@
 import { ThemeUIProvider } from 'theme-ui'
 import { BasicStackLayout } from '../../layouts'
-import { Heading, Text } from '../../components'
 import { baseThemeUiPreset as preset } from '../../utils/presets';
-import { navLinks } from '../story-utils';
+import { navLinks, textElements1 } from '../story-utils';
 
 export default {
   title: 'Layouts/Basic Stack Layout',
@@ -18,10 +17,7 @@ export default {
 export const Default = {
   args: {
     navLinks: navLinks,
-    mainContent: [
-      <Heading>Alcatra sint kielbasa aliqua</Heading>,
-      <Text>Minim cillum veniam, kielbasa in short loin picanha culpa ex dolore occaecat strip steak laboris. Tempor bacon non, flank short ribs sirloin veniam dolore pastrami velit fatback ad tenderloin burgdoggen. Corned beef beef ribs ad eiusmod ut commodo.</Text>
-    ]
+    mainContent: textElements1
   },
   decorators: [
     (Story) => (
