@@ -1,11 +1,12 @@
 import React from 'react'
-import { Navigation } from './Navigation'
+import { Navigation } from '.'
+import { Box } from '../components'
 
 export const Footer = ({ navLinks }) => {
   return (
-    <div>
+    <Box p={4} color="background" bg="primary">
       <Navigation navLinks={navLinks} />
       <span>Footer</span>
-    </div>
+    </Box>
   )
 }

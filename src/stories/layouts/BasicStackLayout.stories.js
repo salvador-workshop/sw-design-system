@@ -1,4 +1,7 @@
-import { BasicStackLayout } from '../../layouts/BasicStackLayout'
+import { ThemeUIProvider } from 'theme-ui'
+import { BasicStackLayout } from '../../layouts'
+import { Heading, Text } from '../../components'
+import { baseThemeUiPreset as preset } from '../../utils/presets';
 import { navLinks } from '../story-utils';
 
 export default {
@@ -14,6 +17,18 @@ export default {
 
 export const Default = {
   args: {
-    navLinks: navLinks
+    navLinks: navLinks,
+    mainContent: [
+      <Heading>Alcatra sint kielbasa aliqua</Heading>,
+      <Text>Minim cillum veniam, kielbasa in short loin picanha culpa ex dolore occaecat strip steak laboris. Tempor bacon non, flank short ribs sirloin veniam dolore pastrami velit fatback ad tenderloin burgdoggen. Corned beef beef ribs ad eiusmod ut commodo.</Text>
+    ]
   },
+  decorators: [
+    (Story) => (
+      <ThemeUIProvider theme={preset}>
+        {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
+        <Story />
+      </ThemeUIProvider>
+    ),
+  ],
 };

@@ -1,7 +1,10 @@
 import React from 'react'
+import { Box } from '../components'
 
-export const Content = () => {
+export const Content = ({ children }) => {
   return (
-    <div>Content</div>
+    <Box p={4} color="primary" bg="background">
+      { children }
+    </Box>
   )
 }
