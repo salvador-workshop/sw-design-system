@@ -18,7 +18,9 @@ export const Default = {
     children: [
         <Heading>Alcatra sint kielbasa aliqua</Heading>,
         <Text>Minim cillum veniam, kielbasa in short loin picanha culpa ex dolore occaecat strip steak laboris. Tempor bacon non, flank short ribs sirloin veniam dolore pastrami velit fatback ad tenderloin burgdoggen. Corned beef beef ribs ad eiusmod ut commodo.</Text>
-    ]
+    ],
+    mb: 5,
+    sx: { maxWidth: 400, padding: '30px' },
   },
   decorators: [
     (Story) => (
