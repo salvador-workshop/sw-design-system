@@ -1,17 +1,17 @@
 import React from 'react'
-import { Flex, Box } from '../components'
+import { Flex, NavLink } from '../components'
 
 export const Navigation = ({ navLinks }) => {
   const links = navLinks.map(link => {
     // return <span key={link}>{link}, </span>
     return (
-      <Box key={link} bg="secondary" color="white" sx={{ flex: '1 1 auto' }}>
+      <NavLink key={link} href="#!" p={2}>
         {link}
-      </Box>
+      </NavLink>
     );
   })
   return (
-    <Flex className="navigation">
+    <Flex className="navigation" as="nav">
       {links}
     </Flex>
   )
