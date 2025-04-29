@@ -4,86 +4,86 @@
 // G E N E R A L
 
 export { default as Text } from './text'
-export { default as Button } from './button'
-export { default as Code } from './code'
+// export { default as Button } from './button'
+// export { default as Code } from './code'
 
 
 //--------------
 // L A Y O U T
 
-export { default as Grid } from './grid'
-export { default as Page } from './page'
+// export { default as Grid } from './grid'
+// export { default as Page } from './page'
 export { default as Spacer } from './spacer'
 
 
 //------------------
 // S U R F A C E S
 
-export { default as Card } from './card'
-export { default as Collapse } from './collapse'
-export { default as Fieldset } from './fieldset'
+// export { default as Card } from './card'
+// export { default as Collapse } from './collapse'
+// export { default as Fieldset } from './fieldset'
 
 
 //----------------------
 // D A T A   E N T R Y
 
-export { default as AutoComplete } from './auto-complete'
-export { default as ButtonGroup } from './button-group'
-export { default as Checkbox } from './checkbox'
+// export { default as AutoComplete } from './auto-complete'
+// export { default as ButtonGroup } from './button-group'
+// export { default as Checkbox } from './checkbox'
 export { default as Input } from './input'
-export { default as Radio } from './radio'
-export { default as Select } from './select'
-export { default as Slider } from './slider'
-export { default as Textarea } from './textarea'
-export { default as Toggle } from './toggle'
+// export { default as Radio } from './radio'
+// export { default as Select } from './select'
+// export { default as Slider } from './slider'
+// export { default as Textarea } from './textarea'
+// export { default as Toggle } from './toggle'
 
 
 //--------------------------
 // D A T A   D I S P L A Y
 
-export { default as Avatar } from './avatar'
-export { default as Badge } from './badge'
-export { default as Capacity } from './capacity'
-export { default as Description } from './description'
-export { default as Display } from './display'
-export { default as Dot } from './dot'
-export { default as Tree } from './tree'
-export { default as Image } from './image'
-export { default as Keyboard } from './keyboard'
-export { default as Popover } from './popover'
-export { default as Table } from './table'
-export { default as Tag } from './tag'
-export { default as Tooltip } from './tooltip'
-export { default as User } from './user'
+// export { default as Avatar } from './avatar'
+// export { default as Badge } from './badge'
+// export { default as Capacity } from './capacity'
+// export { default as Description } from './description'
+// export { default as Display } from './display'
+// export { default as Dot } from './dot'
+// export { default as Tree } from './tree'
+// export { default as Image } from './image'
+// export { default as Keyboard } from './keyboard'
+// export { default as Popover } from './popover'
+// export { default as Table } from './table'
+// export { default as Tag } from './tag'
+// export { default as Tooltip } from './tooltip'
+// export { default as User } from './user'
 
 
 //----------------------
 // F E E D B A C K
 
-export { default as Drawer } from './drawer'
-export { default as Loading } from './loading'
-export { default as Modal } from './modal'
-export { default as Note } from './note'
-export { default as Progress } from './progress'
-export { default as Rating } from './rating'
-export { default as Spinner } from './spinner'
+// export { default as Drawer } from './drawer'
+// export { default as Loading } from './loading'
+// export { default as Modal } from './modal'
+// export { default as Note } from './note'
+// export { default as Progress } from './progress'
+// export { default as Rating } from './rating'
+// export { default as Spinner } from './spinner'
 
 
 //----------------------
 // N A V I G A T I O N
 
-export { default as Breadcrumbs } from './breadcrumbs'
-export { default as Link } from './link'
-export { default as Pagination } from './pagination'
-export { default as Tabs } from './tabs'
-export { default as ButtonDropdown } from './button-dropdown'
+// export { default as Breadcrumbs } from './breadcrumbs'
+// export { default as Link } from './link'
+// export { default as Pagination } from './pagination'
+// export { default as Tabs } from './tabs'
+// export { default as ButtonDropdown } from './button-dropdown'
 
 
 //----------------------
 // O T H E R S
 
-export { default as Divider } from './divider'
-export { default as Snippet } from './snippet'
+// export { default as Divider } from './divider'
+// export { default as Snippet } from './snippet'
 
 
 
